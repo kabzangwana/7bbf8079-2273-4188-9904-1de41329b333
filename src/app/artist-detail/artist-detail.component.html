@@ -1,0 +1,11 @@
+<div class="card" style="width: 18rem;">
+  <!-- <img src="..." class="card-img-top" alt="..."> -->
+  <div class="card-body">
+    <h2 class="card-title">Artist</h2>
+    <p class="card-text">{{ eenArtist.name }}</p>
+    <p class="card-text">{{ eenArtist.picture_small }}</p>
+    <p class="card-text">{{ eenArtist.nb_album }}</p>
+    <p class="card-text">{{ eenArtist.nb_fan }}</p>
+    <a [routerLink]="['/posts']" class="btn btn-primary">Back to list</a>
+  </div>
+</div>
